@@ -1,5 +1,6 @@
-// src/components/Product.js
-import React, { useState } from 'react';
+// src/components/Product.
+import React from 'react'; // Remove 'useState' if you're not using it
+
 import styled from 'styled-components';
 
 const ProductContainer = styled.div`
