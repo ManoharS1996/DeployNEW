@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 //import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
-import { FaBeer, FaFacebook, FaHome, FaInstagram, FaTwitter, FaTwitterSquare } from 'react-icons/fa';
+import {  FaFacebook,  FaInstagram, FaTwitterSquare } from 'react-icons/fa';
 
 const NavbarContainer = styled.div`
   display: flex;

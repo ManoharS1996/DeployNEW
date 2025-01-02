@@ -1,5 +1,5 @@
 // src/components/Cart.js
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const CartContainer = styled.div`

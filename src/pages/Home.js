@@ -1,11 +1,11 @@
 // src/pages/Home.js
 import React, { useState } from 'react';
 import Product from '../components/Product';
-import { useNavigate } from 'react-router-dom';
+//import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
   const [cart, setCart] = useState([]);
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   const products = [
     { id: 1, name: 'Product 1', price: 500, image: 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=600' },
@@ -30,9 +30,9 @@ const Home = () => {
     setCart([...cart, product]);
   };
 
-  const removeFromCart = (productId) => {
-    setCart(cart.filter((item) => item.id !== productId));
-  };
+  // const removeFromCart = (productId) => {
+  //   setCart(cart.filter((item) => item.id !== productId));
+  // };
 
   return (
     <div>
